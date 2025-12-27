@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1a1a2e">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="watch-container">
+        <div class="watch-header">
+            <h1 class="watch-title">Stopwatch</h1>
+        </div>
+        
+        <div class="watch-grid-layout">
+            <div class="watch-main-card watch-display-card">
+                <div class="watch-display-wrapper">
+                    <div class="watch-display" id="watchDisplay">00:00:00</div>
+                    <div class="watch-milliseconds" id="watchMilliseconds">00</div>
+                </div>
+            </div>
+            
+            <div class="watch-main-card watch-controls-card">
+                <div class="watch-controls">
+                    <button class="watch-btn watch-btn-primary" id="watchStartBtn" data-action="start">
+                        <i class="bi bi-play-fill"></i>
+                        <span>Start</span>
+                    </button>
+                    <button class="watch-btn watch-btn-secondary" id="watchLapBtn" data-action="lap" disabled>
+                        <i class="bi bi-flag-fill"></i>
+                        <span>Lap</span>
+                    </button>
+                    <button class="watch-btn watch-btn-danger" id="watchResetBtn" data-action="reset" disabled>
+                        <i class="bi bi-arrow-counterclockwise"></i>
+                        <span>Reset</span>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="watch-main-card watch-laps-card">
+                <div class="watch-laps-header">
+                    <h2 class="watch-laps-title">Laps</h2>
+                </div>
+                <div class="watch-laps-list" id="watchLapsList"></div>
+            </div>
+        </div>
+        
+        <div class="watch-footer">
+            <p class="watch-credits">Modern Stopwatch Application</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
