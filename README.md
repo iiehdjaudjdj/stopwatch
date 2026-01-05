@@ -2,19 +2,15 @@
 
 ## Project Description
 
-Ito ay isang modern at propesyonal na stopwatch application na ginawa gamit ang HTML, CSS, at JavaScript. Ang stopwatch na ito ay may malinis at makabagong user interface na responsive sa lahat ng screen sizes kabilang ang mobile devices. Mayroon itong start, pause, at reset functionality. May lap time feature din na pwede mong i-record habang tumatakbo yung timer. May loading animations din ang mga buttons para maiwasan ang double-clicking habang nagpo-process ang operations. May scrollable laps list din para makita mo lahat ng na-record mong lap times.
+This is a modern stopwatch app made with HTML, CSS, and JavaScript. The stopwatch has a clean design that works on all screen sizes including mobile phones. It has start, pause, and reset functions. There is also a lap time feature where you can record lap times while the timer is running. The buttons have loading animations to stop double-clicking when doing operations. There is a scrollable laps list so you can see all your recorded lap times.
 
-## API Details Used
-
-Ang application na ito ay hindi gumagamit ng external API. Lahat ng timer functionality ay ginagawa locally sa browser gamit ang JavaScript. Ang stopwatch ay pure client-side application na hindi nangangailangan ng internet connection o external services para gumana. Ginagamit namin ang Date.now() at setInterval para sa accurate time tracking.
 
 ## Instructions to Run the Project
 
-Para ma-run ang project, buksan lang ang index.html file sa web browser. Pwede mong i-double click ang index.html file o i-open gamit ang web browser. Hindi na kailangan ng server o installation ng dependencies. Pwede mo ring i-open gamit ang local server tulad ng XAMPP, WAMP, o Live Server extension sa VS Code.
+To run the project, just open the index.html file in your web browser. You can double click the index.html file or open it with your web browser. You do not need a server or to install anything. You can also open it using a local server like XAMPP, WAMP, or Live Server extension in VS Code.
 
-Para sa best experience, gamitin ang modern web browsers tulad ng Chrome, Firefox, Edge, o Safari. Responsive ang stopwatch sa lahat ng screen sizes kaya pwede mo itong gamitin sa desktop, tablet, o mobile phone. Pwede mo ring i-bookmark sa mobile browser para maging parang app.
+For best experience, use modern web browsers like Chrome, Firefox, Edge, or Safari. The stopwatch works on all screen sizes so you can use it on desktop, tablet, or mobile phone. You can also bookmark it in mobile browser to make it like an app.
 
 ## Screenshots Included
 
-Ang stopwatch application ay may modern dark theme na may blue at red accent colors. May large display area sa taas para sa main time at milliseconds. May scrollable laps container sa gitna para sa lap times. May three buttons sa baba para sa start/pause, lap, at reset. May loading animations ang buttons kapag nag-click para maiwasan ang double-clicking. Responsive ang design sa lahat ng screen sizes. Ang start button ay nagiging pause button kapag running na yung timer.
-
+<img width="1776" height="995" alt="image" src="https://github.com/user-attachments/assets/e40ee1a3-b2c3-4dc6-8041-8a37fb8d46fd" />
